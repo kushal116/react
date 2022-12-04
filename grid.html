@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conatiner {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr  ;
+            /* height: 600px; */
+            /* border: 2px solid black; */
+        }
+
+        .conatiner div {
+            background-color: greenyellow;
+            border: 2px solid black;
+        }
+
+        .child {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 200px;
+            /* border: 2px solid black; */
+        }
+
+        .child1 div {
+            background-color: yellow;
+        }
+
+        .child1 {
+            display: grid;
+            /* height: 600px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="child">
+            <div class="child1">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+        </div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    </div>
+</body>
+
+</html>
